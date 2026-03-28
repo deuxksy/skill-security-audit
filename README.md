@@ -2,9 +2,13 @@
 
 Cross-platform security vulnerability and update checker for OpenClaw.
 
-## Use with OpenClaw
+## Install
 
-Install as a skill in `~/.openclaw/skills/security-audit/`.
+```bash
+git clone git@github.com:deuxksy/skill-security-audit.git ~/.openclaw/skills/security-audit
+```
+
+OpenClaw가 자동으로 `~/.openclaw/skills/`에서 로드함. 재시작 불필요.
 
 ## Details
 
